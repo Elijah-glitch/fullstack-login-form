@@ -6,9 +6,9 @@ const knex = require('knex');
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
+        host: 'db.gwrouiqimsljzhjkkqve.supabase.co',
         user: 'postgres',
-        password: 'test',
+        password: 'Etckaamx1788!!',
         database: 'loginformytvideo'
     }
 })
