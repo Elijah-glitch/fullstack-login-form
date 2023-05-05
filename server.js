@@ -4,12 +4,12 @@ const bodyParser = require('body-parser');
 const knex = require('knex');
 
 const db = knex({
-    client: 'pg',
+    client: 'mysql',
     connection: {
-        host: '127.0.0.1',
-        user: 'postgres',
-        password: 'test',
-        database: 'loginformytvideo'
+        host: 'localhost',
+        user: 'root',
+        password: 'Aa9020784',
+        database: 'users'
     }
 })
 
